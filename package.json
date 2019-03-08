@@ -6,7 +6,7 @@
   "scripts": {
     "build": "SET NODE_ENV=production & webpack",
     "start": "SET NODE_ENV=development & webpack-dev-server --open --hot",
-	"start:once": "NODE_ENV=development webpack-dev-server --open"
+    "start:once": "NODE_ENV=development webpack-dev-server --open"
   },
   "author": "Shivam Sharma",
   "license": "ISC",
@@ -27,5 +27,13 @@
     "babel-polyfill": "^6.26.0",
     "fractional": "^1.0.0",
     "uniqid": "^4.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivam4786/es6boiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivam4786/es6boiler/issues"
+  },
+  "homepage": "https://github.com/shivam4786/es6boiler#readme"
 }
